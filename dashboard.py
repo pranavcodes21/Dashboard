@@ -146,7 +146,7 @@ FIXED_COSTS = {
     'Electricity': 45000,
     'Marketing': 125000,
     'IISC': 10000,
-    'Accommodation': 35000,
+    'Accommodation': 100000,
     'Snacks (26 days)': 5200
 }
 
