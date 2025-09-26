@@ -147,7 +147,7 @@ FIXED_COSTS = {
     'Marketing': 125000,
     'IISC': 10000,
     'Accommodation': 100000,
-    'Snacks (26 days)': 5200
+    'Snacks (26 days)': 10000
 }
 
 TOTAL_FIXED = sum(FIXED_COSTS.values())
