@@ -142,7 +142,7 @@ INTERIOR_CAPEX = 10000000  # ₹1 crore for interior setup
 # Fixed costs (updated values)
 FIXED_COSTS = {
     'Rent (displacement)': 200000,
-    'Salary (5 staff)': 425000,
+    'Salary (12 staff)': 425000,
     'Electricity': 45000,
     'Marketing': 125000,
     'IISC': 10000,
@@ -248,12 +248,12 @@ with st.sidebar:
 
     if modify_fixed:
         rent = st.number_input("Rent (displacement)", value=FIXED_COSTS['Rent (displacement)'], step=10000)
-        salary = st.number_input("Salary", value=FIXED_COSTS['Salary (5 staff)'], step=5000)
+        salary = st.number_input("Salary", value=FIXED_COSTS['Salary (12 staff)'], step=5000)
         electricity = st.number_input("Electricity", value=FIXED_COSTS['Electricity'], step=1000)
         marketing = st.number_input("Marketing", value=FIXED_COSTS['Marketing'], step=5000)
 
         FIXED_COSTS['Rent (displacement)'] = rent
-        FIXED_COSTS['Salary (5 staff)'] = salary
+        FIXED_COSTS['Salary (12 staff)'] = salary
         FIXED_COSTS['Electricity'] = electricity
         FIXED_COSTS['Marketing'] = marketing
         TOTAL_FIXED = sum(FIXED_COSTS.values())
@@ -362,7 +362,7 @@ with col2:
     st.markdown("### 💰 **Fixed Costs (Monthly)**")
     st.markdown(f"""
     - **Rent (displacement)**: ₹{FIXED_COSTS['Rent (displacement)']:,}
-    - **Salary (5 staff)**: ₹{FIXED_COSTS['Salary (5 staff)']:,}
+    - **Salary (12 staff)**: ₹{FIXED_COSTS['Salary (12 staff)']:,}
     - **Electricity**: ₹{FIXED_COSTS['Electricity']:,}
     - **Marketing**: ₹{FIXED_COSTS['Marketing']:,}
     - **IISC**: ₹{FIXED_COSTS['IISC']:,}
