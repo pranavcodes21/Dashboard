@@ -142,7 +142,7 @@ INTERIOR_CAPEX = 10000000  # ₹1 crore for interior setup
 # Fixed costs (updated values)
 FIXED_COSTS = {
     'Rent (displacement)': 200000,
-    'Salary (12 staff)': 425000,
+    'Salary (12 staff)': 475000,
     'Electricity': 45000,
     'Marketing': 125000,
     'IISC': 10000,
