@@ -158,7 +158,7 @@ VARIABLE_PER_CUSTOMER = {
     'Bathrobe': 50,
     'Disposal': 10,
     'Disposal U': 20,
-    'Incentive': 50
+    'Incentive': 200
 }
 
 TOTAL_VARIABLE_PER_CUSTOMER = sum(VARIABLE_PER_CUSTOMER.values())
